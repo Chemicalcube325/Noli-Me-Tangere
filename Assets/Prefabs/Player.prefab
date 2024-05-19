@@ -117,9 +117,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
+  m_Sprite: {fileID: -2085594364, guid: d749a051e8c13604cbbd21874e045d73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -187,18 +187,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04, y: 0.64}
+  m_Offset: {x: -0.013907343, y: -0.010980725}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.5, y: 1.5}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.24, y: 0.67}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8, y: 1.2}
+  m_Size: {x: 0.26772338, y: 0.64948845}
   m_EdgeRadius: 0
 --- !u!114 &4853838327059643002
 MonoBehaviour:
@@ -252,8 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0459bd16e79b1145a0c35eba67718ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherriesText: {fileID: 0}
   pickUpSound: {fileID: 6258498797397125388}
+  popUp: {fileID: 0}
 --- !u!114 &4073035723251459710
 MonoBehaviour:
   m_ObjectHideFlags: 0
