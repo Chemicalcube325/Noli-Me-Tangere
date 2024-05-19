@@ -41,7 +41,7 @@ public class ItemCollector : MonoBehaviour
             pickUpSound.Play();
             Destroy(collision.gameObject);
             cherries++;
-            cherriesText.text = "Coins: " + cherries;
+            cherriesText.text = "Collectibles: " + cherries;
             Time.timeScale = 0;
             popUp.gameObject.SetActive(true);
         }
